@@ -84,3 +84,24 @@ ul {
 .hero-img .img {
     width: 100%;
 }
+
+/* random info section */
+.random-info {
+    border: 5px solid;
+    padding: 0 15%;
+    text-align: center;
+}
+
+section.random-info .img {
+    border: 1px solid blue;
+}
+
+.card-set {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.card {
+    margin: auto;
+}
