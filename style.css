@@ -37,3 +37,50 @@ ul {
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* hero section */
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 15%;
+}
+
+.copy {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f9faf8;
+    width: 45%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero h3 {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 400;
+}
+
+.hero button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.hero-img {
+    width: 45%;
+}
+
+.hero-img .img {
+    width: 100%;
+}
