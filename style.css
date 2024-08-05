@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     background-color: #1f2937;
     padding: 0 15% 0 15%;
@@ -11,7 +15,6 @@ header {
     font-size: 24px;
     font-weight: 600;
     color: #f9faf8;
-    font-family: Arial, Helvetica, sans-serif;
     min-width: 50%;
     display: flex;
 }
@@ -21,7 +24,6 @@ ul {
     font-size: 18px;
     font-weight: 500;
     color: #f9faf8;
-    font-family: Arial, Helvetica, sans-serif;
     min-width: 50%;
 }
 
@@ -35,7 +37,6 @@ ul {
     color: #949da8;
     font-size: 18px;
     font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* hero section */
@@ -49,7 +50,6 @@ ul {
 }
 
 .copy {
-    font-family: Arial, Helvetica, sans-serif;
     color: #f9faf8;
     width: 45%;
 }
@@ -87,21 +87,32 @@ ul {
 
 /* random info section */
 .random-info {
-    border: 5px solid;
-    padding: 0 15%;
+    padding: 5vh 15%;
     text-align: center;
+    color: #1f2937;
 }
 
-section.random-info .img {
-    border: 1px solid blue;
+.random-info h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.random-info .img {
+    border: 3px solid #3882f6;
+    border-radius: 30px;
+    width: 100%;
 }
 
 .card-set {
     display: flex;
-    justify-content: space-evenly;
-    gap: 10px;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 0 40px;
 }
 
 .card {
+    font-size: 22px;
+    padding: 30px 0;
     margin: auto;
+    width: 200px;
 }
